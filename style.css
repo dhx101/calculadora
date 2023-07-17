@@ -1,4 +1,60 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    padding: 25px 0;
+    background-color: black;
+    color: aliceblue;
+}
+
+.bg {
+    background-color: aliceblue;
+}
+
+.calculadora {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 20vw;
+}
+
+#resultados {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: xx-large;
+    text-align: end;
+    flex: auto;
+    padding: 25px;
+}
+
+.input {
+    display: flex;
+    flex: auto;
+    gap: 25px;
+    justify-content: center;
+
+}
+
+button {
+    padding: 25px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
 }
